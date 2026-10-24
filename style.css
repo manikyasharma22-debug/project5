@@ -1,0 +1,62 @@
+*{
+    font-family: "arial";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    line-height: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbtn{
+    background-color: lightgrey;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(2, 119, 253);
+}
+
+.herosection{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.leftdiv{
+    max-width: 500px;
+    
+}
+
+h1{
+    font-size: 49px;
+}
+
+p{
+    line-height: 25px;
+    text-align: justify;
+}
+
+.herobtn{
+    background-color: rgb(2, 119, 253);
+    color: white;
+    padding: 10px 85px;
+    border-radius: 10px;
+    text-decoration: none;
+}
